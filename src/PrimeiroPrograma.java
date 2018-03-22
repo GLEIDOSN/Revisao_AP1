@@ -23,6 +23,10 @@ public class PrimeiroPrograma {
 		autor1.setEmail("fc_gleidson@hotmail.com");
 		autor1.setCpf("03745882369");
 		
+		Autor autor2 = new Autor();
+		Ebook ebook = new Ebook(autor2);
+		ebook.setTitulo("Engenharia de Software");
+		
 		Livro livro1 = new Livro(autor1);
 		livro1.setTitulo("JAVA POO");
 		livro1.setResumo("Orientação a Objetos em JAVA");
